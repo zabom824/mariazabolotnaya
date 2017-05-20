@@ -1,2 +1,0 @@
-# mariazabolotnaya
-portfolio site
