@@ -8,8 +8,18 @@ body {
     margin-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
+p{
+    font-size:18px;
+}
+
+.featurette{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
 .btn{
     padding: 15px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 .header-image {
     display: block;
@@ -27,7 +37,7 @@ body {
 }
 
 .headline h1 {
-    color: darkgrey;
+    color: black;
     font-size: 100px;
     background: #fff;
     background: rgba(255,255,255,0.9);
@@ -35,7 +45,7 @@ body {
 
 .headline h2 {
     font-size: 60px;
-    color: lightgrey;
+    color: grey;
     background: #fff;
     background: rgba(255,255,255,0.9);
 }
