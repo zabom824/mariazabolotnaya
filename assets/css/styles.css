@@ -1,0 +1,100 @@
+*{
+	box-sizing: border-box;
+}
+
+html, body{
+	width: 100%;
+	height: 100%;
+	font-family: 'Nunito', sans-serif;
+}
+
+header{
+	width: 100%;
+	padding: 8% 0%;
+}
+
+h1, h2{
+	text-align: center;
+}
+
+h1{
+	font-size: 100px;
+}
+
+h2{
+	font-size: 60px;
+}
+
+#navigation{
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: black;
+	width: 100%;
+}
+
+li{
+	list-style-type: none;
+	padding: 0% 5% 1% 5%;
+	float: left;
+}
+
+li a{
+	text-decoration: none;
+	color: white;
+}
+
+#portfolio{
+	width: 100%;
+	margin-left: 7%;
+}
+
+#portfolio div{
+	float: left;
+	width: 25%;
+	margin: 5% 2%;
+	font-size: 24px;
+	text-align: center;
+	padding: 15% 5%;
+}
+
+#portfolio a{
+	color: black;
+}
+
+#design{
+	background-color: red;
+}
+
+#write{
+	background-color: blue;
+}
+
+#art{
+	background-color: green;
+}
+
+#about{
+	width: 100%;
+	padding: 9% 16%;
+	font-size: 24px;
+	display: inline-block;
+}
+
+#about q{
+	color: grey;
+}
+
+#contact{
+	width: 100%;
+	padding: 0% 16%;
+}
+
+input{
+	margin: 2% 0%;
+}
+
+#contact h3{
+	font-size: 24px;
+	padding-bottom: 1%;
+}
