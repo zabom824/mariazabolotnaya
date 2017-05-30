@@ -71,7 +71,6 @@ li a{
 }
 
 #portfolio img{
-	opacity: 0.3;
 	height: 550px;
 	position: absolute;
 	z-index: 0;
@@ -90,7 +89,7 @@ li a{
 }
 
 #portfolio img:hover{
-	opacity: 1;
+
 }
 
 #portfolio a{
