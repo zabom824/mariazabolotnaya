@@ -8,6 +8,16 @@ html, body{
 	font-family: 'Nunito', sans-serif;
 }
 
+h1{
+	font-size: 100px;
+	position: fixed;
+	text-align: center;
+	top: 35%;
+	left: 26%;
+	padding: 0;
+	margin: 0;
+}
+
 h2{
 	font-size: 42px;
 	margin-bottom: 0px;
