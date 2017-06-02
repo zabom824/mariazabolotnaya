@@ -51,15 +51,22 @@
 		</section>
 		<section id="contact">
 			<h3>Contact</h3>
-				<form action="mail-sent.php" method="GET">
-					Name:<br>
-					<input type="text" name="name" style="width: 61%; height: 30px;"><br>
-					E-mail:<br>
-					<input type="text" name="mail" style="width: 61%; height: 30px;"><br>
-					Message:<br>
-					<input type="text" name="comment" style="width: 61%; height: 100px;"><br><br>
-					<input type="submit" value="Send" style="width: 61%;">
-					</form>
+				<?php
+$to = "zabom824@newschool.edu"; 
+$subject = "Subject"; 
+
+$name = $_GET["name"];
+$mail = $_GET["mail"];
+$comment = $_GET["comment"];
+
+$body = "Message From: ". $name ." With Email: ". $mail ." Who Said: ".$comment."."; 
+
+if(mail($to,$subject,$body)) { 
+echo "<center><h3>An e-mail was sent.</h3></center>"; 
+} else { 
+echo "<center><h3> was a problem sending the mail.</h3></center>"; 
+}
+				?>
 		</section>
 	</main>
 
