@@ -72,9 +72,9 @@
 						$body = "Message From: ". $name ." With Email: ". $mail ." Who Said: ".$comment."."; 
 
 						if(mail($to,$subject,$body)) { 
-						echo "<h3>An e-mail was sent.</h3>"; 
+						echo "An e-mail was sent."; 
 						} else { 
-						echo "<h3>There was a problem sending the mail.</h3>"; 
+						echo "There was a problem sending the mail."; 
 						}
 					?>			
 		</section>
