@@ -52,7 +52,7 @@
 		<section id="contact">
 			<h3>Contact</h3>
 				<?php
-$to = "mike@mediaexplode.com"; 
+$to = "zabom824@newschool.edu"; 
 $subject = "Subject"; 
 
 $name = $_GET["name"];
