@@ -6,26 +6,23 @@ html, body{
 	width: 100%;
 	height: 100%;
 	font-family: 'Nunito', sans-serif;
+	max-width: 100%;
 }
-/*_______________________________________________*/
-
-
 
 header{
+	position: absolute;
+	top: 15%;
 	width: 100%;
-	padding: 8% 0%;
-}
-
-h1, h2{
-	text-align: center;
 }
 
 h1{
 	font-size: 100px;
+	text-align: center;
 }
 
 h2{
 	font-size: 60px;
+	text-align: center;
 }
 
 #navigation{
@@ -48,243 +45,44 @@ li a{
 	color: white;
 }
 
-
-/*_______________________________________________*/
-
+main{
+	position: absolute;
+	top: 100%;
+}
 
 #portfolio{
-	width: 89%;
-	margin-left: 7%;
-	padding-top: 0%;
-	padding-bottom: 20%;
+	margin-left: 9%;
+	width: 90%;
+	padding-top: 5%;
+	margin-bottom: 20%;
 }
 
 #portfolio div{
 	float: left;
-	width: 30%;
+	display: inline-block;
+	padding-right: 5%;
+	font-size: 24px;
 	text-align: center;
 }
 
 #portfolio img{
 	height: 500px;
-	position: absolute;
-	z-index: 0;
-}
-
-#portfolio #design img{
-	left: 8%;
-}
-
-#portfolio #write img{
-	left: 39%;
-}
-
-#portfolio #art img{
-	left: 68%;
 }
 
 #portfolio a{
 	color: black;
 }
 
-#portfolio p{
-	width: 100%;
-	text-align: center;
-	font-size: 42px;
-	padding-top: 10%;
-	padding-bottom: 0;
-	margin-bottom: 0;
-}
-
-
-/*______________________________________*/
-
-
 #about{
-	font-size: 24px;
-	width: 100%;
-	display: inline-block;
-	padding-top: 7%;
-	width: 65%;
-	margin: 40% 0% 20% 20%;
+	clear: both;
+	width: 60%;
+	margin-left: 20%;
+	padding-top: 15%;
 }
 
-#about q{
-	color: grey;
+#contact{  
+	width: 30%;
+	margin-left: 35%;
+	padding-top: 23%;
+	padding-bottom: 20%;
 }
-
-#contact h3, #about h3{
-	font-size: 42px;
-}
-
-#contact{
-	font-size: 24px;
-	margin-left: 34.5%;
-	padding-bottom: 15%;
-}
-
-
-/*______________________________________________*/
-
-@media(min-width: 300px) and (max-width: 499px){
-
-	html{
-	}
-
-	header{
-		background-color: black;
-		color: white;
-		height: 25%;
-		width: 94%;
-	}
-
-	#navigation{
-		display: none;
-	}	
-
-	h1{
-		text-align: center;
-		font-size: 34px;
-		margin-left: 5%;
-		padding-bottom: 0;
-		margin-top: 0;
-	}
-
-	h2{
-		display: none;
-	}
-
-	#portfolio img{
-		height: 300px;
-		position: static;
-	}
-	#portfolio div{
-		width: 100%;
-		float: left;
-		display: block;
-		margin-top:0;
-		margin-bottom: 0;
-	}
-
-	#portfolio p{
-		font-size: 24px;
-	}
-
-	#about{
-		margin: 5%;
-		width: 85%;
-	}
-
-	#contact{
-		margin: 0;
-	}
-
-	#about h3{
-		font-size: 24px;
-		width: 100%;
-		text-align: center;
-		margin-left: 5%;
-		margin-right: 5%;
-	}
-
-	#contact h3{
-		font-size: 24px;
-		width: 100%;
-		text-align: center;
-	}
-
-	#about p, #about q, #contact p{
-		font-size: 16px;
-	}
-
-	#contact p{
-		margin-left: 5%;
-	}
-}
-
-/*___________________________________________*/
-@media(min-width: 500px) and (max-width: 699px){
-		html{
-	}
-
-	header{
-		background-color: black;
-		color: white;
-		height: 25%;
-		width: 98%;
-	}
-
-	#navigation{
-		display: none;
-	}	
-
-	h1{
-		text-align: center;
-		font-size: 34px;
-		margin-left: 5%;
-		padding-bottom: 0;
-		margin-top: 0;
-	}
-
-	h2{
-		display: none;
-	}
-
-	#portfolio img{
-		height: 300px;
-		position: static;
-	}
-	#portfolio div{
-		width: 100%;
-		float: left;
-		display: block;
-		margin-top:0;
-		margin-bottom: 0;
-	}
-
-	#portfolio p{
-		font-size: 24px;
-	}
-
-	#about{
-		margin: 5%;
-		width: 90%;
-	}
-
-	#contact{
-		margin: 0;
-	}
-
-	#about h3{
-		font-size: 24px;
-		width: 100%;
-		text-align: center;
-		margin-left: 0%;
-		margin-right: 5%;
-	}
-
-	#contact h3{
-		font-size: 24px;
-		width: 100%;
-		text-align: center;
-	}
-
-	#about p, #about q, #contact p{
-		font-size: 16px;
-	}
-
-	#contact p{
-		margin-left: 5%;
-	}
-}
-
-@media(min-width: 700px) and (max-width: 999px){
-	header{
-		margin-left: 6%;
-	}
-
-	#portfolio div{
-		position: static;
-		float: left;
-		display: inline-block;
-	}
