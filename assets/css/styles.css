@@ -7,7 +7,7 @@ html, body{
 	height: 100%;
 	font-family: 'Nunito', sans-serif;
 }
-
+/*_______________________________________________*/
 
 
 
@@ -49,6 +49,7 @@ li a{
 }
 
 
+/*_______________________________________________*/
 
 
 #portfolio{
@@ -87,14 +88,16 @@ li a{
 }
 
 #portfolio p{
+	width: 100%;
+	text-align: center;
 	font-size: 42px;
 	padding-top: 10%;
 	padding-bottom: 0;
 	margin-bottom: 0;
-	
 }
 
 
+/*______________________________________*/
 
 
 #about{
@@ -110,7 +113,6 @@ li a{
 	color: grey;
 }
 
-
 #contact h3, #about h3{
 	font-size: 42px;
 }
@@ -120,3 +122,169 @@ li a{
 	margin-left: 34.5%;
 	padding-bottom: 15%;
 }
+
+
+/*______________________________________________*/
+
+@media(min-width: 300px) and (max-width: 499px){
+
+	html{
+	}
+
+	header{
+		background-color: black;
+		color: white;
+		height: 25%;
+		width: 94%;
+	}
+
+	#navigation{
+		display: none;
+	}	
+
+	h1{
+		text-align: center;
+		font-size: 34px;
+		margin-left: 5%;
+		padding-bottom: 0;
+		margin-top: 0;
+	}
+
+	h2{
+		display: none;
+	}
+
+	#portfolio img{
+		height: 300px;
+		position: static;
+	}
+	#portfolio div{
+		width: 100%;
+		float: left;
+		display: block;
+		margin-top:0;
+		margin-bottom: 0;
+	}
+
+	#portfolio p{
+		font-size: 24px;
+	}
+
+	#about{
+		margin: 5%;
+		width: 85%;
+	}
+
+	#contact{
+		margin: 0;
+	}
+
+	#about h3{
+		font-size: 24px;
+		width: 100%;
+		text-align: center;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+
+	#contact h3{
+		font-size: 24px;
+		width: 100%;
+		text-align: center;
+	}
+
+	#about p, #about q, #contact p{
+		font-size: 16px;
+	}
+
+	#contact p{
+		margin-left: 5%;
+	}
+}
+
+/*___________________________________________*/
+@media(min-width: 500px) and (max-width: 699px){
+		html{
+	}
+
+	header{
+		background-color: black;
+		color: white;
+		height: 25%;
+		width: 98%;
+	}
+
+	#navigation{
+		display: none;
+	}	
+
+	h1{
+		text-align: center;
+		font-size: 34px;
+		margin-left: 5%;
+		padding-bottom: 0;
+		margin-top: 0;
+	}
+
+	h2{
+		display: none;
+	}
+
+	#portfolio img{
+		height: 300px;
+		position: static;
+	}
+	#portfolio div{
+		width: 100%;
+		float: left;
+		display: block;
+		margin-top:0;
+		margin-bottom: 0;
+	}
+
+	#portfolio p{
+		font-size: 24px;
+	}
+
+	#about{
+		margin: 5%;
+		width: 90%;
+	}
+
+	#contact{
+		margin: 0;
+	}
+
+	#about h3{
+		font-size: 24px;
+		width: 100%;
+		text-align: center;
+		margin-left: 0%;
+		margin-right: 5%;
+	}
+
+	#contact h3{
+		font-size: 24px;
+		width: 100%;
+		text-align: center;
+	}
+
+	#about p, #about q, #contact p{
+		font-size: 16px;
+	}
+
+	#contact p{
+		margin-left: 5%;
+	}
+}
+
+@media(min-width: 700px) and (max-width: 999px){
+	header{
+		margin-left: 6%;
+	}
+
+	#portfolio div{
+		position: static;
+		float: left;
+		display: inline-block;
+	}
