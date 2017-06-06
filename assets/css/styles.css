@@ -11,8 +11,9 @@ html, body{
 
 header{
 	position: absolute;
-	top: 15%;
+	top: 20%;
 	width: 100%;
+	left: -4%;
 }
 
 h1{
@@ -53,9 +54,8 @@ main{
 #portfolio{
 	position: relative;
 	margin-left: 9%;
-	width: 90%;
+	width: 100%;
 	padding-top: 5%;
-	margin-bottom: 20%;
 }
 
 #portfolio div{
@@ -78,14 +78,14 @@ main{
 	clear: both;
 	width: 60%;
 	margin-left: 20%;
-	padding-top: 15%;
+	padding-top: 100%;
 }
 
 #contact{  
 	width: 30%;
 	margin-left: 35%;
-	padding-top: 23%;
-	padding-bottom: 20%;
+	padding-top: 60%;
+	padding-bottom: 40%;
 }
 
 @media(min-width: 300px) and (max-width: 499px){
