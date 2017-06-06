@@ -6,7 +6,7 @@ html, body{
 	width: 100%;
 	height: 100%;
 	font-family: 'Nunito', sans-serif;
-	max-width: 100%;
+	margin: 0;
 }
 
 header{
@@ -51,6 +51,7 @@ main{
 }
 
 #portfolio{
+	position: relative;
 	margin-left: 9%;
 	width: 90%;
 	padding-top: 5%;
@@ -85,4 +86,67 @@ main{
 	margin-left: 35%;
 	padding-top: 23%;
 	padding-bottom: 20%;
+}
+
+@media(min-width: 300px) and (max-width: 499px){
+
+	img, section, html, body, header, main, #portfolio, #about, #contact{
+		margin: 0;
+		padding: 0;
+
+	}
+	#navigation, h2{
+		display: none;
+	}
+	header{
+		color: white;
+		background-color: black;
+		position: absolute;
+		top: 0%;
+		width: 100%;
+	}
+
+	h1{
+		font-size: 42px;
+		text-align: center;
+	}
+
+	main{
+		position: absolute;
+		top: 18%;
+		left: 16%;
+	}
+
+	#portfolio img{
+		height: 400px;
+	}
+	#portfolio div{
+		clear: both;
+	}
+
+	#about{
+		padding-top: 10%;
+		font-size: 9px;
+		text-align:justify;
+		width: 72%;
+	}
+
+	#contact{
+		padding-top: 10%;
+		font-size: 9px;
+		width: 70%;
+		padding-bottom: 10%;
+	}
+}
+
+@media(min-width: 500px) and (max-width: 699pc){
+
+}
+
+@media(min-width: 700px) and (max-width:999){
+
+}
+
+@media(min-width: 1000px) and (max-width: 1399){
+
 }
