@@ -8,6 +8,7 @@ html, body{
 #navigation{
 	background-color: black;
 	padding: 5px 0px;
+	width: 100%;
 }
 
 #navigation nav a{
@@ -17,7 +18,7 @@ html, body{
 }
 
 main{
-	padding-top: 10%;
+	padding-top: 8%;
 }
 
 main h1{
