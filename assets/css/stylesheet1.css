@@ -18,10 +18,14 @@ html, body{
 }
 
 main{
-	padding-top: 8%;
+	padding-top: 5%;
 }
 
 main h1{
 	font-size: 100px;
+}
+
+main h2{
+	font-size: 40px;
 }
 
