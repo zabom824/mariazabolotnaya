@@ -53,15 +53,8 @@
 					  <div class="mySlides fade">
 					  	<img src="assets/media/slide5.png" style="width: 60%">
 					  </div>
+				</div>
 
-					</div>
-					<br>
-
-					<div style="text-align:center">
-					  <span class="dot" onclick="currentSlide(1)"></span> 
-					  <span class="dot" onclick="currentSlide(2)"></span> 
-					  <span class="dot" onclick="currentSlide(3)"></span> 
-					</div>
 					<script>
 					var slideIndex = 0;
 					showSlides();
@@ -74,10 +67,14 @@
 					    }
 					    slideIndex++;
 					    if (slideIndex> slides.length) {slideIndex = 1} 
-					    slides[slideIndex-1].style.display = "block"; 
+					    slides[slideIndex-1].style.display = "block";
+					    slides[slideIndex-1].style.width = "100%";
 					    setTimeout(showSlides, 4000); // Change image every 2 seconds
 					}
 					</script>
+				<div id="bottom-image">
+					<img src="assets/media/pen.png" style="border:none;">
+				</div>
 			</main>
 
 		</center>
