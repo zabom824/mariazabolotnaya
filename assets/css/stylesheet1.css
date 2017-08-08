@@ -178,4 +178,28 @@ p{
 		text-align: right;
 		margin: 0;
 	}
+	#sidebar{
+		width: 100%;
+		text-align: center;
+		padding: 0;
+		height: auto;
+		position: absolute;
+		top: 0%;
+	}
+	#sidebar a{
+		margin: 0;
+	}
+
+	#content{
+		position: absolute;
+		top: 55%;
+		left: 0%;
+		margin: 0;
+	}
+
+	#content img{
+		margin: 8% 0%;
+		width: 100%;
+	}
+
 }
