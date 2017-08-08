@@ -168,4 +168,14 @@ p{
 	#bottom-image img{
 		width: 80%;
 	}
+
+	p{
+		width: 89%;
+		font-size: 15px;
+		margin-top: 10%;
+	}
+	#contact p{
+		text-align: right;
+		margin: 0;
+	}
 }
