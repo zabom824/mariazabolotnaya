@@ -69,6 +69,10 @@ img{
 	border: 1px solid black;
 }
 
+#bottom-image{
+	display:none;
+}
+
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
@@ -158,8 +162,10 @@ p{
 		margin: 2% 6%;
 	}
 
+	#bottom-image{
+		display: block;
+	}
 	#bottom-image img{
-		display: all;
-		width: 50%;
+		width: 80%;
 	}
 }
