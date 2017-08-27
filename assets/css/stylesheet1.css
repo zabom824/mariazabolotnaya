@@ -126,6 +126,31 @@ img{
 	margin: 8%;
 }
 
+#content a:hover img{
+	border: 10px solid yellow;
+}
+
+#content2{
+margin: 4% 0% 0% 30%;
+}
+
+.row{
+	width: 35%;
+	float: left;
+	display: inline-block;
+	margin: 3%;
+}
+
+.row img{
+ width: 48%;
+ float:left;
+ margin: 1% 1% 6% 1%;
+}
+
+.row p{
+	width: 100%;
+}
+
 p{
 	font-size: 18px;
 	line-height: 25px;
