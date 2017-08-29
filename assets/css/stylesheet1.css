@@ -227,4 +227,17 @@ p{
 		width: 100%;
 	}
 
+	#content2{
+		position: absolute;
+		top: 50%;
+		margin-left:0; 
+	}
+
+	.row{
+		width: 95%;
+	}
+
+	.row img{
+	}
+
 }
